@@ -5,7 +5,7 @@ class studentAccount:
         self.trackers = self.init_trackers()
 
     def init_trackers(self):
-        """Creates list of trackers. Expects None, returns a list"""
+        """Creates list of trackers. Returns a list"""
         ### Standard format:
         ### [title, time started, time in progress, time completed, current status]
         trackers = [

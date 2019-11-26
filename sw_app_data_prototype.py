@@ -1,4 +1,5 @@
 """Senior Work App Data Management Prototype"""
+import time
 
 class studentAccount:
     def __init__(self):
@@ -41,6 +42,38 @@ class studentAccount:
         for tracker in self.trackers:
             trackers.append(tracker.copy())
         return trackers
+
+    def update_tracker(self, tracker_title, entry_index):
+        """Changes the entry at entry_index to the current timestamp if null,
+            changes the last entry to entry_index if the entry was changed.
+            Expects a string and int, returns copy of updated tracker"""
+        trackers = self.trackers
+        # tests that entry_index between 1:4
+        if not (1<=entry_index and entry_index<4):
+            # Raises value error
+            raise ValueError("Invalid entry_index: must >=1 and <4", f"entry_index = {entry_index}")
+        
+        for i in range(len(trackers)):
+            tracker = trackers[i]
+            if tracker[0] == tracker_title:
+                # tests that the entry is null, so it doesn't overwrite
+                if not tracker[entry_index]:
+                    # tests if last entry is an int or string. If not, then entry is too high
+                    if type(tracker[entry_index-1])==float or type(tracker[entry_index-1])==str:
+                        # sets entry to current timestamp
+                        tracker[entry_index] = time.time()
+                        if len(tracker) > 2:
+                            # doesn't run for math trackers
+                            tracker[4] = entry_index
+                    else:
+                         raise ValueError(f"entry_index {entry_index} is too high, last entry must be updated first")
+                else:
+                    raise ValueError("Invalid entry_index: entry already filled", f"entry_index = {entry_index}")
+                # copies tracker instead of returning the object, more secure
+                return tracker.copy()
+        # raises a ValueError only if search for tracker failed
+        raise ValueError(f"Could not find '{tracker_title}' in list of trackers")
+
 
 class teacherAccount:
     def __init__(self):

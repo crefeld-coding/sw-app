@@ -35,6 +35,12 @@ class studentAccount:
             ]
         return trackers
 
+    def get_trackers(self):
+        """Copies contents of self.trackers, more secure than directly returning it"""
+        trackers = list()
+        for tracker in self.trackers:
+            trackers.append(tracker.copy())
+        return trackers
 
 class teacherAccount:
     def __init__(self):

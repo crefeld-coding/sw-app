@@ -1,0 +1,78 @@
+{
+	"default": {
+		"Formal Writing": {
+			"Literary Analysis": {
+				"Started": null,
+				"In Progress": null,
+				"Passed": null
+			},
+			"Timed Persuasive Essay Exam": {
+				"Started": null,
+				"In Progress": null,
+				"Passed": null
+			},
+		},
+		"Personal Transition Plan": {
+				"Started": null,
+				"In Progress": null,
+				"Passed": null
+			},
+		"Math": {
+			"CANS Test": {
+				"Passed": null
+			},
+			"Algebra Test": {
+				"Passed": null
+			},
+			"Geometry Test": {
+				"Passed": null
+			}
+		},
+		"Research and Understanding": {
+			"History Oral Exam": {
+				"Started": null,
+				"In Progress": null,
+				"Passed": null
+			},
+			"Research Paper": {
+				"Started": null,
+				"In Progress": null,
+				"Passed": null
+			},
+			"Science Project": {
+				"Started": null,
+				"In Progress": null,
+				"Passed": null
+			},
+			"Technology": {
+				"Started": null,
+				"In Progress": null,
+				"Passed": null
+			}
+		},
+		"Self-Reflection": {
+			"Personal Learning Reflection": {
+				"Started": null,
+				"In Progress": null,
+				"Passed": null
+			},
+			"Creative Expression": {
+				"Started": null,
+				"In Progress": null,
+				"Passed": null
+			},
+			"Public Presentation": {
+				"Started": null,
+				"In Progress": null,
+				"Passed": null
+			}
+		},
+		"Citizenship": {
+			"Civics Exam": {
+				"Started": null,
+				"In Progress": null,
+				"Passed": null
+			}
+		}
+	}
+}

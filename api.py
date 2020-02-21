@@ -14,7 +14,7 @@ def student_tracker(student_name):
 		template_context = dict(student=student, student_name=student_name)
 		return fl.render_template('tracker_template.html', **template_context)
 	except KeyError:
-		abort(404, f'Student {student_name} not found')
+		fl.abort(404, f'Student {student_name} not found')
 
 if __name__ == "__main__":
 	app.run(debug=True)

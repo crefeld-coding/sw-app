@@ -6,3 +6,6 @@ app = fl.Flask(__name__)
 
 with open('user-data/student_trackers.json') as f:
 	student_profiles = json.load(f)
+
+if __name__ == "__main__":
+	app.run(debug=True)

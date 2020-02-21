@@ -10,14 +10,14 @@
 				"Started": null,
 				"In Progress": null,
 				"Passed": null
-			},
+			}
 		},
 		"Transition": {
 			"Personal Transition Plan": {
-					"Started": null,
-					"In Progress": null,
-					"Passed": null
-				}
+				"Started": null,
+				"In Progress": null,
+				"Passed": null
+			}
 		},
 		"Math": {
 			"CANS Test": {

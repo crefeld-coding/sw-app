@@ -2,88 +2,88 @@
 	"default": {
 		"Formal Writing": {
 			"Literary Analysis": {
-				"Started": null,
-				"In Progress": null,
-				"Passed": null
+				"Started": "-",
+				"In Progress": "-",
+				"Passed": "-"
 			},
 			"Timed Persuasive Essay Exam": {
-				"Started": null,
-				"In Progress": null,
-				"Passed": null
+				"Started": "-",
+				"In Progress": "-",
+				"Passed": "-"
 			}
 		},
 		"Transition": {
 			"Personal Transition Plan": {
-				"Started": null,
-				"In Progress": null,
-				"Passed": null
+				"Started": "-",
+				"In Progress": "-",
+				"Passed": "-"
 			}
 		},
 		"Math": {
 			"CANS Test": {
-				"Passed": null
+				"Passed": "-"
 			},
 			"Algebra Test": {
-				"Passed": null
+				"Passed": "-"
 			},
 			"Geometry Test": {
-				"Passed": null
+				"Passed": "-"
 			}
 		},
 		"Research and Understanding": {
 			"History Oral Exam": {
-				"Started": null,
-				"In Progress": null,
-				"Passed": null
+				"Started": "-",
+				"In Progress": "-",
+				"Passed": "-"
 			},
 			"Research Paper": {
-				"Started": null,
-				"In Progress": null,
-				"Passed": null
+				"Started": "-",
+				"In Progress": "-",
+				"Passed": "-"
 			},
 			"Science Project": {
-				"Started": null,
-				"In Progress": null,
-				"Passed": null
+				"Started": "-",
+				"In Progress": "-",
+				"Passed": "-"
 			},
 			"Technology": {
-				"Started": null,
-				"In Progress": null,
-				"Passed": null
+				"Started": "-",
+				"In Progress": "-",
+				"Passed": "-"
 			}
 		},
 		"Self-Reflection": {
 			"Personal Learning Reflection": {
-				"Started": null,
-				"In Progress": null,
-				"Passed": null
+				"Started": "-",
+				"In Progress": "-",
+				"Passed": "-"
 			},
 			"Creative Expression": {
-				"Started": null,
-				"In Progress": null,
-				"Passed": null
+				"Started": "-",
+				"In Progress": "-",
+				"Passed": "-"
 			},
 			"Public Presentation": {
-				"Started": null,
-				"In Progress": null,
-				"Passed": null
+				"Started": "-",
+				"In Progress": "-",
+				"Passed": "-"
 			}
 		},
 		"Citizenship": {
 			"Civics Exam": {
-				"Started": null,
-				"In Progress": null,
-				"Passed": null
+				"Started": "-",
+				"In Progress": "-",
+				"Passed": "-"
 			},
 			"Independent Service Learning": {
-				"Started": null,
-				"In Progress": null,
-				"Passed": null
+				"Started": "-",
+				"In Progress": "-",
+				"Passed": "-"
 			},
 			"Leadership Project": {
-				"Started": null,
-				"In Progress": null,
-				"Passed": null
+				"Started": "-",
+				"In Progress": "-",
+				"Passed": "-"
 			}
 		}
 	}

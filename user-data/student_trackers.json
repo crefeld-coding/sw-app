@@ -74,6 +74,16 @@
 				"Started": null,
 				"In Progress": null,
 				"Passed": null
+			},
+			"Independent Service Learning": {
+				"Started": null,
+				"In Progress": null,
+				"Passed": null
+			},
+			"Leadership Project": {
+				"Started": null,
+				"In Progress": null,
+				"Passed": null
 			}
 		}
 	}
